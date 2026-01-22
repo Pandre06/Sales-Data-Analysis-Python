@@ -24,4 +24,5 @@ with open(file_path, 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerows(sales_data)
 
-print(f"✅ CSV file 'sales_data.csv' created in folder: {os.getcwd()}")
+print(f" CSV file 'sales_data.csv' created in folder: {os.getcwd()}")
+
